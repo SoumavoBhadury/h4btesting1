@@ -20,7 +20,8 @@ function Dashboard() {
                         <button className="nav-button hover:glow bg-blue-500 text-white font-bold py-2 px-4 rounded">Marketplace</button></Link>
                     </li>
                     <li>
-                        <button className="nav-button hover:glow bg-blue-500 text-white font-bold py-2 px-4 rounded">Discussions</button>
+                        <Link to="/discussion">
+                        <button className="nav-button hover:glow bg-blue-500 text-white font-bold py-2 px-4 rounded">Discussions</button></Link>
                     </li>
                 </ul>
                 <div className="logout-box">
