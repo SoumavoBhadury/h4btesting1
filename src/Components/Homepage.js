@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 
 export default function Homepage() {
@@ -10,7 +11,8 @@ export default function Homepage() {
             <li>Connect with us</li>
             <li>Feedbacks</li>
         </div>
-        <button className='rounded-xl border-[3px] border-black px-3 py-1 font-semibold hover:bg-black hover:text-white hover:border-transparent transition duration-0 hover:duration-150 hover:ease-in'>Connect wallet</button>
+        <Link to='/dash' className='text-white'>
+        <button className='rounded-xl border-[3px] border-black px-3 py-1 font-semibold hover:bg-black hover:text-white hover:border-transparent transition duration-0 hover:duration-150 hover:ease-in'>Connect wallet</button></Link>
       </div >
       <div className='flex flex-col text-left px-24 p-1'>
         <p className='my-10 text-6xl w-[50%] font-serif'>MAKING EDUCATION EASIER AND MORE ACCESSIBLE!</p>

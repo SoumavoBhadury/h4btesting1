@@ -15,7 +15,7 @@ export default function Card() {
 
       </form>
       <div className="flex flex-col gap-2">
-        <button className='bg-blue-500 text-white px-4 py-2 rounded-lg mt-7 text-lg w-[20vw] mx-auto'>Connect Wallet</button>
+        <a href={"/Dashboard"} className='bg-blue-500 text-white px-4 py-2 rounded-lg mt-7 text-lg w-[20vw] mx-auto'>SignUp</a>
         <span className='text-purple-700'>Already have an account? <a href="#" className='text-blue-700 font-semibold hover:underline'>Log In</a></span>
       </div>
     </div>
