@@ -41,8 +41,10 @@
 {
   background: rgb(0,0,0);
   background: linear-gradient(119deg, rgba(0,0,0,1) 0%, rgba(96,20,158,1) 50%, rgba(245,242,242,1) 100%);
-}.homenav
-{
-  background: rgb(0,0,0);
-  background: linear-gradient(119deg, rgba(0,0,0,1) 0%, rgba(96,20,158,1) 50%, rgba(245,242,242,1) 100%);
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
